@@ -55,7 +55,7 @@ def move():
         targets.append(target)
 
     for target in targets:
-        target.x -= 2
+        target.x -= 2.5
 
         if target.x < -200:
             target.x = 200
