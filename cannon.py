@@ -57,6 +57,10 @@ def move():
     for target in targets:
         target.x -= 0.5
 
+    if target.x < -200:
+        target.x = 200
+        target.y = randrange(-150, 150)
+
     if inside(ball):
         speed.y -= 0.35
         ball.move(speed)
