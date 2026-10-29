@@ -41,8 +41,8 @@ def draw():
         dot(20, 'blue')
 
         if inside(ball):
-        goto(ball.x, ball.y)
-        dot(6, 'red')
+            goto(ball.x, ball.y)
+            dot(6, 'red')
 
     update()
 
