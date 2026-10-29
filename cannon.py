@@ -40,7 +40,7 @@ def draw():
         goto(target.x, target.y)
         dot(20, 'blue')
 
-    if inside(ball):
+        if inside(ball):
         goto(ball.x, ball.y)
         dot(6, 'red')
 
